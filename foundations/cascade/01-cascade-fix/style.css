@@ -1,11 +1,17 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
-
+/*box-sizing: border box η  content box με την διαφορα οτι το content box προσθετει τα px απο το borded Κλπ ενω το border box τα αφαιρει απο το actual width και height
+οταν χρησιμοποιεις και το padding border margin μαζι με width η height */
 .para,
 .small-para {
+  box-sizing: border-box;
   color: hsl(0, 0%, 0%);
   font-weight: 800;
+  background-color: aqua;
+  padding: 20px;
+  border: 20px solid red;
+  margin: 40px;
 }
 
 .small-para {
